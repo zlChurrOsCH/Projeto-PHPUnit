@@ -66,4 +66,4 @@ Eu fiz algumas alterações nas configurações desse teste, para podermos ter u
     </logging>
 </phpunit>
 '''
-**'xmlns:xsi'** e 'xsi:noNamespaceSchemaLocation' definem o namespace XML e a localização do esquema XSD do PHPUnit usado para validar o arquivo de configuração.
+'''xmlns:xsi''' e 'xsi:noNamespaceSchemaLocation' definem o namespace XML e a localização do esquema XSD do PHPUnit usado para validar o arquivo de configuração.
