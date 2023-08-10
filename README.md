@@ -55,7 +55,8 @@ Como já passamos por isso, fui fazer um checkup de configurações e mudanças 
 Eu fiz algumas alterações nas configurações desse teste, para podermos ter um resultado mais claro, e o nosso XML ficou assim:
 
 <pre>
-'''<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd" bootstrap="vendor/autoload.php" colors="true" stopOnFailure="false">
+```xml
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.5/phpunit.xsd" bootstrap="vendor/autoload.php" colors="true" stopOnFailure="false">
     <testsuites>
         <testsuite name="Unit">
             <directory>tests</directory>
@@ -64,6 +65,7 @@ Eu fiz algumas alterações nas configurações desse teste, para podermos ter u
     <logging>
         <testdoxText outputFile="testes-executados.txt"/>
     </logging>
-</phpunit>'''
+</phpunit>
+```
 </pre>
 'xmlns:xsi' e 'xsi:noNamespaceSchemaLocation' definem o namespace XML e a localização do esquema XSD do PHPUnit usado para validar o arquivo de configuração.
