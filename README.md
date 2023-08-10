@@ -106,7 +106,7 @@ Vou explicar parte por parte desse código para que a gente consiga configurar o
 
 ```<loggin>``` Elemento que define configurações para registros (logs) gerados durante a execução dos testes.<br />
 ```<testdoxText>```Define a geração de um arquivo de texto de saída no formato ```TestDox```, que é uma forma legível de mostrar os resultados dos testes em formato de documentação. O atributo ```outputFile``` especifica o nome do arquivo onde essa saída será gravada. <br />
-No exemplo, os resultados dos testes serão gravados no arquivo testes-executados.txt na pasta raiz mesmo.
+No exemplo, os resultados dos testes serão gravados no arquivo ```testes-executados.txt``` na pasta raiz mesmo.
 
 Essas configurações ajudam a personalizar a execução do PHPUnit, determinar onde os testes estão localizados, como a saída é formatada e muito mais. Elas são usadas para ajustar o comportamento dos testes de acordo com as necessidades do projeto e da equipe de desenvolvimento. É claro, existem diversas outras opções que a gente pode ir personalizando conforme a necessidade.
 
