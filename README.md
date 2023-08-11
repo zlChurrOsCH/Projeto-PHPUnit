@@ -31,7 +31,7 @@ O PHPUnit é amplamente utilizado para:
 
  2. Crie uma estrutura de diretórios para seus testes e código fonte. Nesse projeto, eu fiz da seguinte maneira:
  ```
-    /projeto-twd
+    /projeto-phpunit96
      ├── docs                       # Onde estará documentado nossos testes e explicações gerais do projeto
      └── exemplos                   # Informações adicionais dos testes feitos
      ├── src                        # Código fonte do projeto
@@ -47,7 +47,7 @@ Como já passamos por isso, fui fazer um checkup de configurações e mudanças 
 ```
 <phpunit>
     <testsuites>
-        <testsuite name="Projeto TWD">
+        <testsuite name="Projeto PHPUnit96">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
