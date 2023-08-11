@@ -1,7 +1,7 @@
-## Método 'setUp(): void{}'
+## Método `setUp(): void{}`
 Esse método é extremamente poderoso para os nossos testes, ele permite que você configure o ambiente necessário antes da execução de cada teste dentro da classe de teste. Ele é executado automaticamente pelo PHPUnit antes de cada teste.
 
-## Por que usar o 'setUp'
+## Por que usar o `setUp`
 - **Reutilização de Código:** O método setUp ajuda a evitar a duplicação de código. Se vários testes precisam de uma configuração semelhante, você pode definir essa configuração uma vez no método setUp, em vez de repeti-la em cada teste.
 - **Manutenção Simplificada:** Se você precisa alterar ou atualizar a configuração comum para todos os testes, pode fazer isso em um único lugar no método setUp, em vez de alterar cada teste individualmente.
 - **Leitura e Clareza:** Configurar o ambiente no método setUp melhora a legibilidade dos testes individuais. Isso significa que o foco de cada teste pode ser mantido naquilo que está sendo testado, sem se preocupar com a configuração inicial.
