@@ -9,3 +9,6 @@ O método ```setUp()``` é uma peça fundamental na estrutura de testes do PHPUn
 
 ## Simulação de Dependências com ```@dataProvider```
 O uso da anotação ```@dataProvider``` é uma técnica poderosa para simular diferentes cenários e parâmetros em um conjunto de testes. Demonstramos isso no nosso projeto ao testar a função ```gerarMensagem``` da classe ```Autenticacao``` com vários usuários e senhas diferentes, **sem a necessidade de escrever testes separados para cada combinação**.
+
+## Considerações Finais
+Aprendemos que, ao efetuar testes de classes que dependem de outras classes, é crucial isolar as dependências e criar cenários variados para garantir que a funcionalidade seja robusta e confiável. O uso de ```setUp()``` e ```@dataProvider``` no PHPUnit nos permitiu automatizar e organizar esses testes, melhorando a eficiência e a abrangência dos testes no nosso projeto. Essas técnicas são valiosas para garantir a qualidade do software e a detecção precoce de problemas em cenários reais de uso.
