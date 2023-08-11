@@ -11,3 +11,12 @@ Na aplicação feita arquivo ```AutenticacaoTest.php```, nós podemos ver ele em
 ![image](https://github.com/zlChurrOsCH/Projeto-TWD/assets/40037040/e97b6f2f-214a-4f1e-8d54-b9f4a6f318aa)
 
 Então para cada teste que ele executa, nós podemos ver que ele reexecuta toda a função e gera um teste a partir de um ambiente novo.
+
+Este outro pode ser usado para conhecer a aplicabilidade do método:
+```PHP
+protected function setUp(): void {
+    // Configurações iniciais antes de cada teste
+    $this->autenticacao = new Autenticacao();
+    echo "Configuração concluída.\n";
+}
+```
