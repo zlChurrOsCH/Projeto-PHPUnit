@@ -1,4 +1,4 @@
-# Projeto-TWD
+# Projeto-PHPUnit
 Esse é um projeto privado usado para que fique mais fácil a busca por informações
 
 Nesse arquivo vou explicar de forma geral o que é, para que serve e quais as aplicabilidades do PHPUnit em um projeto como o da TWD.
