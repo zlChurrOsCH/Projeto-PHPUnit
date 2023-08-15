@@ -36,18 +36,18 @@ class AutenticacaoTest extends TestCase {
     public static function dadosCenariosDeAutenticacao() {
         return [
             // [Usuário, Senha, Mensagem Esperada]
-            ['admin', 'senhaAdmin', 'Usuário autenticado como admin'],
-            ['getuser', 'senhaGet', 'Usuário autenticado como getuser'],
-            ['deleteuser', 'senhaDelete', 'Usuário autenticado como deleteuser'],
-            ['postuser', 'senhaPost', 'Usuário autenticado como postuser'],
-            ['putuser', 'senhaPut', 'Usuário autenticado como putuser'],
-            ['leiturauser', 'senhaLeitura', 'Usuário autenticado como leiturauser'],
-            ['admin', 'senhaGet', 'Falha na autenticação'],
-            ['getuser', 'senhaAdmin', 'Falha na autenticação'],
-            ['deleteuser', 'senhaPost', 'Falha na autenticação'],
-            ['postuser', 'senhaDelete', 'Falha na autenticação'],
-            ['putuser', 'senhaLeitura', 'Falha na autenticação'],
-            ['leiturauser', 'senhaPut', 'Falha na autenticação'],
+            'Acesso Admin Error' => ['admin', 'senhaAdmin', 'Usuário autenticado como admi'],
+            'Acesso Get Sucesso' => ['getuser', 'senhaGet', 'Usuário autenticado como getuser'],
+            'Acesso Delete Sucesso' => ['deleteuser', 'senhaDelete', 'Usuário autenticado como deleteuser'],
+            'Acesso Post Sucesso' => ['postuser', 'senhaPost', 'Usuário autenticado como postuser'],
+            'Acesso Put Sucesso' => ['putuser', 'senhaPut', 'Usuário autenticado como putuser'],
+            'Acesso Leitura Sucesso' => ['leiturauser', 'senhaLeitura', 'Usuário autenticado como leiturauser'],
+            'Acesso Admin Falhou' => ['admin', 'senhaGet', 'Falha na autenticação'],
+            'Acesso Get Falhou' => ['getuser', 'senhaAdmin', 'Falha na autenticação'],
+            'Acesso Delete Falhou' => ['deleteuser', 'senhaPost', 'Falha na autenticação'],
+            'Acesso Post Falhou' => ['postuser', 'senhaDelete', 'Falha na autenticação'],
+            'Acesso Put Falhou' => ['putuser', 'senhaLeitura', 'Falha na autenticação'],
+            'Acesso Leitura Falhou' => ['leiturauser', 'senhaPut', 'Falha na autenticação'],
         ];
     }
 }
