@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Projeto\\Twd\\": "src/"
+            "Projeto\\Unit96\\": "src/"
         }
     },
     "authors": [
