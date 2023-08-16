@@ -9,7 +9,7 @@ require_once 'apis/Api4.php';
 require_once 'apis/Api5.php';
 require_once 'vendor/autoload.php';
 
-use Projeto\Twd\Autenticacao;
+use Projeto\Unit96\Autenticacao;
 
 // Definir usuários e permissões
 $usuarios = [

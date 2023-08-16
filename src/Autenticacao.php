@@ -1,6 +1,6 @@
 <?php
 
-namespace Projeto\Twd;
+namespace Projeto\Unit96;
 
 class Autenticacao {
     public static function autenticar($username, $password) {

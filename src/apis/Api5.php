@@ -1,4 +1,7 @@
 <?php
+
+namespace Projeto\Unit96\apis;
+
 class Api5 {
     public function chamar() {
         // Simulação de chamada à API 5

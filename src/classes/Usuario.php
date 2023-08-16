@@ -1,4 +1,7 @@
 <?php
+
+namespace Projeto\Unit96\classes;
+
 class Usuario {
     public $username;
     public $password;

@@ -1,4 +1,7 @@
 <?php
+
+namespace Projeto\Unit96\classes;
+
 class Funcoes {
     private $usuarios = [];
     

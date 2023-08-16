@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Projeto\Twd\Autenticacao;
+use Projeto\Unit96\Autenticacao;
 
 class AutenticacaoTest extends TestCase {
     private $autenticacao;

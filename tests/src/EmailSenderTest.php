@@ -1,4 +1,5 @@
 <?php
+
 use PHPUnit\Framework\TestCase;
 use Projeto\Unit96\EmailSender;
 use Projeto\Unit96\EmailService;
